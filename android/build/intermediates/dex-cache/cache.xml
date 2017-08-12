@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\F4sl355\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_66011c8fe508a7e4f4a52ffc004a93f7a1c55fdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\F4sl355\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_6dfc5a2cc239e8268eaffc1dbadf41910140612c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.0.1_0906b3917343ad946b940761595688cd1e9a8da7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.47.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="576b5113887747a7592650ae14d980e1c57983c4">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.47.0_0d9823358a24d9b63c48e6fc19fcc24e87392ad3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\F4sl355\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_443ea25c6d1a43cde80aa0e5dc42946d5e4bbe8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\F4sl355\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_81742fd32991b2e6f5f3f24b7f791938ad41a84a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_ee19e6dccb647c28cfb8b773d303337a81c07a74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.0.1_22b29bc065c3ca010193db6c9f1d6416ce02e7e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.0.1_bd2301cb004c38837f99dc2197771dddd4c58189.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\F4sl355\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_291053f8915774caef94de644cff0d54ae6f338c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.0.1_e23cdc68afc505c059feef7a0ff82ac7ddf8be72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\F4sl355\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_2ae37545c65e3eecf16516af3e2596f7787e4801.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_98535553cd0ba9606473cb74004be135c0bb8a59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_9380094ee7f315ad626b48c39bce075fabe37910.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.0.1_8c2941f2a697655dda63d72342b16aa4fecc0568.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_261b4db6fb3c88c2362549464b15d59aa8ec028f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_7fa6f6ac6c8a0a0ff6a778d70bb11f038c799c85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.0.1_126c24ef019687a1236488e18ffdc6949a1ccc23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\F4sl355\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_9518f042f455e645c269ea2b68c00f061e0f207a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\F4sl355\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_1bb298b1d7c4490e8e4e2db4bc32a1ff803e4509.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.47.0\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\Data\Repositories\ReactModoro\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_af0da1452e1f04efe5c5fa2b132f9c690ad688ec.jar" />
+    </item>
+
+</items>
