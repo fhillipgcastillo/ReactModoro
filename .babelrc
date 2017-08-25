@@ -5,7 +5,7 @@
   ],
   "plugins": [
   	["babel-root-import", {
-  		"rootPathSuffix": "app"
+  		"rootPathSuffix": "App"
   	}]
   ]
 }

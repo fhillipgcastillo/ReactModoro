@@ -3,7 +3,7 @@
  * https://github.com/facebook/react-native
  * @flow
  */
-
+/*
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -49,5 +49,16 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+
+AppRegistry.registerComponent('ReactModoro', () => ReactModoro);
+*/
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @flow
+ */
+
+import ReactModoro from './App';
+import { AppRegistry } from 'react-native';
 
 AppRegistry.registerComponent('ReactModoro', () => ReactModoro);

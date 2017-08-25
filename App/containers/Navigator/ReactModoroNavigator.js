@@ -23,7 +23,7 @@ import {Text} from 'react-native';
 
 class HomeScreen extends Component {
   static navigationOptions = {
-    title: 'Home Screen'
+    title: 'React Modoro'
   };
   static propTypes = {
     isAuthenticating: PropTypes.bool.isRequired,
@@ -32,14 +32,16 @@ class HomeScreen extends Component {
     isAuthenticating: true
   };
   render(){
+    const { navigate } = this.props.navigation;
+    // return navigate('PreSplash');
     return (
-      this.props.isAuthenticating ? 
-      <PreSplashContainer /> :
       <SplashContainer />
     )
   }
 };
-
+const PreSplashScreen = PreSplashContainer;
 export default ReactModoroNavigator = StackNavigator({
-  Home: { screen: HomeScreen }
+  Home: { screen: HomeScreen },
+  // PreSplash: { screen: PreSplashScreen },
+  // Splash: {screen: SplashContainer }
 });

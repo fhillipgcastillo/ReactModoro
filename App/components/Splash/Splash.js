@@ -3,7 +3,7 @@ import { View, StyleSheet, Text } from 'react-native'
 
 Splash.propTypes = {
 
-}
+};
 
 export default function Splash (props) {
   return (
@@ -13,8 +13,8 @@ export default function Splash (props) {
       </Text>
     </View>
   )
-}
+};
 
 const styles = StyleSheet.create({
 
-})
+});
