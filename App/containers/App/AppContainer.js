@@ -9,15 +9,12 @@ export default class AppContainer extends Component {
 	// 	title: 'welcome'
 	// };
 	static proptTypes = {
-		isAuthenticating: PropTypes.bool.isRequired
-	};
-	static defaultProps ={
-		isAuthenticating: true
+		// isAuthenticating: PropTypes.bool.isRequired
 	};
   	render () {
 	    return (
 	      <View style={{flex:1}}>
-	      	{this.props.isAuthenticating === true 
+	      	{this.props.isAuthenticating === false 
 		      	? <PreSplash /> 
 		      	: <ReactModoroNavigator />
 	      	}

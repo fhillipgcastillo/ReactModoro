@@ -39,7 +39,7 @@ class HomeScreen extends Component {
     )
   }
 };
-const PreSplashScreen = PreSplashContainer;
+// const PreSplashScreen = PreSplashContainer;
 export default ReactModoroNavigator = StackNavigator({
   Home: { screen: HomeScreen },
   // PreSplash: { screen: PreSplashScreen },
