@@ -14,7 +14,7 @@ class LoginButton extends React.Component {
 
 	};
 	static propTypes = {
-		onLoginFinished: PropTypes.func.isRequired
+		onLoginFinished: PropTypes.func.isRequired,
 	};
 	render(){
 		return (
@@ -22,6 +22,7 @@ class LoginButton extends React.Component {
 				title="Login with Facebook"
 	    		color="#841584"
 	    		onPress={this.props.onLoginFinished}
+	    		onLoginFinished={this.props.onLoginFinished}
 	    	/>
 		)
 	}
@@ -72,6 +73,7 @@ const styles = StyleSheet.create({
 	},
 	assuranceText: {
 		color: colors.secondary,
-		fontSize: fontSizes.secondary
+		fontSize: fontSizes.secondary,
+		textAlign: 'center'
 	}
 });
