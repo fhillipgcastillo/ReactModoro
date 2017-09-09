@@ -4,15 +4,10 @@ import { View, StyleSheet, Text, Image, Button, Dimensions } from 'react-native'
 import { colors, fontSizes } from "../../styles";
 const { height } = Dimensions.get('window'); 
 
-Splash.propTypes = {
-	onLoginFinished: PropTypes.func.isRequired
-};
+
 
 /*this should be facebook login button*/
 class LoginButton extends React.Component {
-	manageLoginFinish = (callback)=>{
-
-	};
 	static propTypes = {
 		onLoginFinished: PropTypes.func.isRequired,
 	};
@@ -26,10 +21,14 @@ class LoginButton extends React.Component {
 	    	/>
 		)
 	}
-}
+};
+
+Splash.propTypes = {
+	onLoginFinished: PropTypes.func.isRequired
+};
 
 export default function Splash (props) {
-  return (
+	return (
     <View style={styles.container}>
 	    <View>
 	    	<Image source={require('../../images/logo.png')} style={styles.image} />
@@ -40,7 +39,7 @@ export default function Splash (props) {
 	    <View style={styles.loginContainer}>
 	    	<LoginButton 
 	    		style={styles.assuranceText}
-	    		onLoginFinished={this.props.onLoginFinished} />
+	    		onLoginFinished={props.onLoginFinished} />
 	    	<Text>Don't Worry.We don't post anything to Facebook.</Text>
 	    </View>
     </View>
