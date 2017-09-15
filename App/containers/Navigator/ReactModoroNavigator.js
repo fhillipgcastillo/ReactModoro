@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { PreSplashContainer } from "../../containers";
-import { SplashContainer } from "../../containers";
+import { SplashContainer, FooterTabsContainer } from "../../containers";
 import { StackNavigator } from 'react-navigation';
 import {Text} from 'react-native';
 
@@ -35,7 +35,8 @@ class HomeScreen extends Component {
     const { navigate } = this.props.navigation;
     // return navigate('PreSplash');
     return (
-      <SplashContainer />
+      <FooterTabsContainer navigator={navigate}/>
+      // <SplashContainer />
     )
   }
 };
