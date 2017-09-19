@@ -1,20 +1,23 @@
 import React, { PropTypes } from 'react'
 import { View, StyleSheet, Text } from 'react-native'
 
-Home.propTypes = {
+DrawerHeader.propTypes = {
 
 }
 
-export default function Home (props) {
+export default function DrawerHeader (props) {
   return (
     <View>
       <Text>
-        Home
+        Header User Avatar
+      </Text>
+      <Text>
+        Header User Score
       </Text>
     </View>
   )
 }
-/*
+
 const styles = StyleSheet.create({
 
-})*/
+})
