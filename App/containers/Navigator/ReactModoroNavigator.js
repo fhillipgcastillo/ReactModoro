@@ -14,7 +14,7 @@ import {Text} from 'react-native';
 //   }
 //   render () {
 //     return (
-//       <Navigator 
+//       <Navigator
 //         renderScene={this.renderScene}
 //         configureScene={this.configureScene}
 //       />)
@@ -27,17 +27,19 @@ class HomeScreen extends Component {
   };
   static propTypes = {
     isAuthenticating: PropTypes.bool.isRequired,
+    isAuthed: PropTypes.bool.isRequired
   };
   static defaultProps = {
-    isAuthenticating: true
+    isAuthenticating: false,
+    isAuthed: false
   };
   render(){
     const { navigate } = this.props.navigation;
     // return navigate('PreSplash');
-    return (
-      <FooterTabsContainer navigator={navigate}/>
-      // <SplashContainer />
-    )
+    if(this.props.isAuthed === false) {
+      return <SplashContainer navigator={navigate} />;
+    }
+    return <FooterTabsContainer navigator={navigate}/>;
   }
 };
 // const PreSplashScreen = PreSplashContainer;

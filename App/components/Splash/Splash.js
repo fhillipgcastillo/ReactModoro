@@ -1,27 +1,27 @@
 import React, { PropTypes } from 'react'
 import { View, StyleSheet, Text, Image, Button, Dimensions } from 'react-native'
-// import { LoginButton } from 'react-native-fbsdk';
+import { LoginButton } from 'react-native-fbsdk';
 import { colors, fontSizes } from "../../styles";
-const { height } = Dimensions.get('window'); 
+const { height } = Dimensions.get('window');
 
 
 
 /*this should be facebook login button*/
-class LoginButton extends React.Component {
-	static propTypes = {
-		onLoginFinished: PropTypes.func.isRequired,
-	};
-	render(){
-		return (
-			<Button
-				title="Login with Facebook"
-	    		color="#841584"
-	    		onPress={this.props.onLoginFinished}
-	    		onLoginFinished={this.props.onLoginFinished}
-	    	/>
-		)
-	}
-};
+// class LoginButton extends React.Component {
+// 	static propTypes = {
+// 		onLoginFinished: PropTypes.func.isRequired,
+// 	};
+// 	render(){
+// 		return (
+// 			<Button
+// 				title="Login with Facebook"
+// 	    		color="#841584"
+// 	    		onPress={this.props.onLoginFinished}
+// 	    		onLoginFinished={this.props.onLoginFinished}
+// 	    	/>
+// 		)
+// 	}
+// };
 
 Splash.propTypes = {
 	onLoginFinished: PropTypes.func.isRequired
@@ -37,9 +37,13 @@ export default function Splash (props) {
 			</Text>
 	    </View>
 	    <View style={styles.loginContainer}>
-	    	<LoginButton 
-	    		style={styles.assuranceText}
-	    		onLoginFinished={props.onLoginFinished} />
+				<LoginButton
+					style={{
+						height: 30,
+						width: 180,
+						marginBottom: 15,
+					}}
+					onLoginFinished={props.onLoginFinished}/>
 	    	<Text>Don't Worry.We don't post anything to Facebook.</Text>
 	    </View>
     </View>
@@ -71,8 +75,8 @@ const styles = StyleSheet.create({
 		alignItems: 'center'
 	},
 	assuranceText: {
-		color: colors.secondary,
-		fontSize: fontSizes.secondary,
+		// color: colors.secondary,
+		// fontSize: fontSizes.secondary,
 		textAlign: 'center'
 	}
 });
