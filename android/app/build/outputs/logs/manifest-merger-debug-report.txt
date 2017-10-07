@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:1:1-32:12
+ADDED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:1:1-33:12
 	package
 		ADDED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:2:5-30
 		INJECTED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml
@@ -46,7 +46,7 @@ MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Data\Repositories\ReactMod
 		INJECTED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:13:5-30:19
+ADDED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:13:5-31:19
 MERGED from [com.facebook.react:react-native:0.47.0] C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.47.0\AndroidManifest.xml:13:5-20
 MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.0.1] C:\Data\Repositories\ReactModoro\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
@@ -86,9 +86,15 @@ activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:29:7-84
 	android:name
 		ADDED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:29:17-81
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:30:7-98
+	android:value
+		ADDED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:30:64-95
+	android:name
+		ADDED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:30:18-63
 android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:1:1-33:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:1:1-33:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Data\Repositories\ReactModoro\android\app\src\main\AndroidManifest.xml:1:1-33:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

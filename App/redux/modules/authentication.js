@@ -1,4 +1,4 @@
-import { getAccessToken, authWithTocken } from '~/api/auth'
+import { getAccessToken, authWithTocken } from '../../api/auth'
 
 /*handle auth state*/
 const initialState = {
@@ -26,7 +26,8 @@ function isAuthed(){
 	return {
 		type: IS_AUTHED
 	}
-}
+};
+
 function onAuthChange(user){
 	return function(dispatch){
 		if(!user){
@@ -36,15 +37,17 @@ function onAuthChange(user){
 			dispatch(isAuthed(uid));
 		}
 	}
-}
+};
+
 export function handleAuthWithFirebase(){
 	return function(dispatch, getState){
 		dispatch(authentication());
-		return getAccessToken().
+		return getAccessToken()
 			.then(({accessToken}) => authWithTocken(accessToken))
 			.catch((error) => console.warn('Error in handleAuthWithFirebase'));
 	}
-}
+};
+
 export default function authentication (state = initialState, action){
 	// if(action.type === 'AUTH_USER') {
 	// 	return {

@@ -4,8 +4,8 @@ import { connect } from 'react-redux';
 import { ReactModoroNavigator } from "../../containers";
 import { PreSplash, Splash } from "../../components";
 import PropTypes from 'prop-types';
-import { firebaseAuth } from '~/config/constants'
-import { onAuthChange } from '~/redux/modules/authentication'
+import { firebaseAuth } from '../../config/constants'
+import { onAuthChange } from '../../redux/modules/authentication'
 
 
 class AppContainer extends Component {
