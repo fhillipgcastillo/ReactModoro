@@ -10,25 +10,25 @@ const AUTHENTICATING = 'AUTHENTICATING';
 const NOT_AUTHED = 'NOT_AUTHED';
 const IS_AUTHED = 'IS_AUTHED';
 
-function authenticating(){
+export function authenticating(){
 	return {
 		type: AUTHENTICATING,
 	}
 };
 
-function notAuthed(){
+export function notAuthed(){
 	return {
 		type: NOT_AUTHED
 	}
 }
 
-function isAuthed(){
+export function isAuthed(){
 	return {
 		type: IS_AUTHED
 	}
 };
 
-function onAuthChange(user){
+export function onAuthChange(user){
 	return function(dispatch){
 		if(!user){
 			dispatch(notAuthed())
